@@ -1,6 +1,5 @@
 # Array vs Linked List
-Data Structure - 1st Study
-Array vs Linked List
+Data Structure 첫 번째 스터디 : Array와 Linked List
 
 ##  Array(배열) 기본 개념
 ![Array](../images/array.jpg "배열 이미지")
