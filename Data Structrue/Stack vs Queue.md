@@ -45,3 +45,4 @@ Data Structure - 3번째 스터디 : Stack과 Queue
 ## 참고 문헌
 * https://seill.tistory.com/576
 * https://monsieursongsong.tistory.com/5
+* 유석종, 『자료구조 개념 및 구현』, 휴먼싸이언스(2018)
