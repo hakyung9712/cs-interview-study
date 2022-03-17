@@ -38,15 +38,18 @@ Data Structure - 4번째 스터디 : Tree
 
 ## Tree의 장점? 사용하는 이유?
 * (Dynamic) Array나 Linked List에서는 삽입이나 삭제를 수행하는데 O(N) 시간 소요
-* 트리는 편향 트리가 아닌 이상 일반적으로 **삽입 삭제 수행 시 O(logN)** 시간 소요
+	* [Array](https://github.com/hakyung9712/cs-interview-study/blob/dongyeon/Data%20Structrue/Array%20vs%20LinkedList.md): Index로 빠르게 접근 가능하지만, Shift 과정에서 O(N) 소요
+	* [Dynamic Array](https://github.com/hakyung9712/cs-interview-study/blob/dongyeon/Data%20Structrue/DynamicArray%20vs%20LinkedList.md): Index로 빠르게 접근 가능하지만, 작업 외 데이터들을 임시 배열로 복사/이동 하는 과정에서 O(N) 소요
+	* [Linked List](https://github.com/hakyung9712/cs-interview-study/blob/dongyeon/Data%20Structrue/Array%20vs%20LinkedList.md): 작업 데이터를 찾기 위해 순회하는 과정에서 O(N) 소요
+* 트리는 편향 트리가 아닌 이상 일반적으로 **삽입/삭제 수행 시 O(logN)** 시간 소요
 * **계층적 관계**를 표현하는데 용이함
 
 ## Tree의 종류
-![]()
+![type of tree](../images/type of tree.jpg)
 * **Binary Tree**: 자식 노드가 최대 2개까지만 허용하는 트리
 * Ternary Tree: 자식 노드가 3개 이상 존재하는 트리
 * Skewed Binary Tree: 모든 노드가 부모의 왼쪽 혹은 오른쪽으로 편향되어 있는 트리
-* **Binary Search Tree**: 부모노드의 왼쪽 자식 노드에는 부모노드보다 작은 값이, 오른쪽 자식 노드에는 부모 노드보다 큰 값이 들어가 있어야 하는 트리. 값을 찾는데 편리한 조건 (전위 순회, 중위 순회, 후위 순회 - 루트 노드의 방문 순서가 기준)
+* **Binary Search Tree**: 부모노드의 왼쪽 자식 노드에는 부모노드보다 작은 값이, 오른쪽 자식 노드에는 부모 노드보다 큰 값이 들어가 있어야 하는 트리. 값을 찾는데 편리한 조건 (전위 순회, 중위 순회, 후위 순회 - 루트 노드의 방문 순서가 기준, 레벨 순회)
 * **Complete Binary Tree**: 왼쪽에서 오른쪽으로 순서대로 차곡차곡 채워져있는 이진 트리
 * **Full Binary Tree**: 단말 노드를 제외하고 모든 노드의 차수가 2 혹은 0인 이진 트리
 * **Perfect Binary Tree**: 모든 노드의 차수가 2이며, 모든 단말 노드의 레벨도 동일한 경우
@@ -55,6 +58,9 @@ Data Structure - 4번째 스터디 : Tree
 ## Tree 구조의 활용
 * 컴퓨터 디렉토리 구조
 * 회사의 조직도
+* 최대/최소 힙
+* 우선 순위 큐
+* 기타 등등
 
 ## 참고 문헌
 * https://github.com/WooVictory/Ready-For-Tech-Interview/blob/master/Data%20Structure/%5BData%20Structure%5D%20Tree.md
