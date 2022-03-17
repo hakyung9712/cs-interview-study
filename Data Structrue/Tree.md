@@ -12,7 +12,7 @@ Data Structure - 4번째 스터디 : Tree
 * 노드가 n개인 트리는 항상 <u>n-1개의 간선(edge)</u>를 보유
 
 ## Tree의 구성요소
-![composition of tree](../images/composition of tree.jpg)
+![composition of tree](../images/composition_of_tree.jpg)
 * **Tree의 구성 요소**
 	* Node(노드): 트리를 구성하는 각각의 요소
 	* Edge(간선): 트리를 구성하기 위해 노드와 노드를 연결하는 선
@@ -45,7 +45,7 @@ Data Structure - 4번째 스터디 : Tree
 * **계층적 관계**를 표현하는데 용이함
 
 ## Tree의 종류
-![type of tree](../images/type of tree.jpg) 
+![type of tree](../images/type_of_tree.jpg) 
 * **Binary Tree**: 자식 노드가 최대 2개까지만 허용하는 트리
 * Ternary Tree: 자식 노드가 3개 이상 존재하는 트리
 * Skewed Binary Tree: 모든 노드가 부모의 왼쪽 혹은 오른쪽으로 편향되어 있는 트리
