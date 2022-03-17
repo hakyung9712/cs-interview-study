@@ -39,9 +39,78 @@ Data Structure - 3번째 스터디 : Stack과 Queue
 	* BFS (Breadth First Serach) 탐색
 
 ## Stack 구현 (Python)
+```python
+# Stack with Python.py
+class Stack():
+	def __init__(self):
+		self.stack = []
+
+	def push(self, data):
+		self.stack.append(data)
+
+	def pop(self):
+		if self.isEmpty():
+			print("Stack is empty")
+		else:
+			pop_data = self.stack.pop()
+
+		return pop_data
+
+	def peek(self):
+		if self.isEmpty():
+			print("Stack is empty")
+		else:
+			top_data = self.stack[-1]
+
+		return top_data
+
+	def show(self):
+		print("Stack Size:", len(self.stack))
+		print("Stack Data:", self.stack)
+
+	def isEmpty(self):
+		if len(self.stack) == 0:
+			return True
+		else:
+			return False
+```
 
 ## Queue 구현 (Python)
- 
+```python
+# Queue with Python.py
+class Queue():
+	def __init__(self):
+		self.queue = []
+
+	def enqueue(self, data):
+		self.queue.append(data)
+
+	def dequeue(self):
+		if self.isEmpty():
+			print("Queue is empty")
+		else:
+			front_data = self.queue[0]
+			self.queue = self.queue[1:]
+			return front_data
+
+	def peek(self):
+		if self.isEmpty():
+			print("Queue is empty")
+		else:
+			front_data = self.queue[0]
+			return front_data
+
+	def show(self):
+		print("Queue Length:", len(self.queue))
+		print("Queue Data:", self.queue)
+
+	def isEmpty(self):
+		if len(self.queue) == 0:
+			return True
+		else:
+			return False
+
+```
 
 ## 다양한 Queue/Stack의 변형과 활용
 #### 순환 큐
