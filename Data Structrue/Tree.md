@@ -68,4 +68,4 @@ Data Structure - 4번째 스터디 : Tree
 * http://dblab.duksung.ac.kr/ds/pdf/Chap08.pdf
 * https://lifelife7777.tistory.com/133
 * https://yaboong.github.io/data-structures/2018/02/10/1_binary-tree-1/
-* 자료구조 개념 및 구현 - 유석종 지음
+* 유석종, 『자료구조 개념 및 구현』, 휴먼싸이언스(2018)
