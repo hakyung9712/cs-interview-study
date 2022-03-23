@@ -1,7 +1,7 @@
 ## Array vs LinkedList
 ---
 ### Array (배열)
-![array](../images/array.png)
+![array](../images/noonnoo_array.png)
 * 특징
   - 데이터를 연속적인 메모리 위치에 저장한다.
   - 연속적인 위치 덕분에 요소에 대한 접근이 용이하다.
@@ -17,7 +17,7 @@
 
 
 ### Linked List
-![linkedlist](../images/linkedlist.png)
+![linkedlist](../images/noonnoo_linkedlist.png)
 * 특징
   - 메모리 위치가 붙어서 저장되지 않을 수 있다.
   - 연속적으로 저장되지 않는 대신 다음 요소에 대한 정보가 같이 저장된다.
