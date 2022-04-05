@@ -35,7 +35,7 @@ Data Structure 네 번째 스터디 : 해시 (Hash)
 	* **Double Hash (이중 해시)**: 충돌이 발생하면 두 번째 해시함수를 사용하여 해시값을 가지도록 함
 	* **Rehasing (재해싱)**: 해시 테이블의 크기를 늘리고 새로운 해시 테이블의 크기에 맞추어 모든 데이터를 다시 해싱. 단, 상당히 많은 비용 발생
 * **Closed Addressing Method** : 해시 함수로 얻은 주소 사용
-	* ![chaining method](dy_hash_chaining)
+	* ![chaining method](../images/dy_hash_chaining.jpg)
 	* **Chaining (체이닝)**: 해시 테이블 자체는 포인터 배열로 만들고, 같은 인덱스(버켓)에 해당하는 데이터들을 체인형식(Linked List)으로 만들어 연결
 		* 장) 삽입과 삭제가 용이함
 		* 단) 따로 동적인 공간을 할당해야 함, 검색 시 선형 탐색으로 인해 속도가 느림 O(N)
